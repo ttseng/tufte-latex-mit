@@ -1,0 +1,40 @@
+This is a version of the MIT's LaTeX template integrated with the Tufte-LaTeX (https://tufte-latex.github.io/tufte-latex/) template.  It will make your thesis/dissertation look much nicer than the DEFAULT MIT template.  That being said, there are probably some things that are broken that you are welcome to fix.  Just press enter when you TeX the files and ignore those pesky error messages....
+
+- tiff (@scientiffic)
+
+### BELOW IS FROM THE ORIGINAL MIT TEMPLATE READ ME
+
+This file includes the basic commands you will need to use within each
+chapter of your thesis.
+
+The file chap1.tex is a sample first chapter.  To get started, you may
+just want to replace the text and commands in that file as needed.  In
+general though, for each new chapter you want to do the following:
+
+	o Make sure the name has the extension .tex .  Otherwise, you
+	can call it anything you want.  For ease of use, all the
+	examples use chap1, chap2, etc.
+
+	o Add a line to the file main.tex that reads:
+
+	\include{yourfilename}
+
+	This should not include the .tex extension, because latex
+	assumes that is there.
+
+Basic syntax:
+
+	o The first line of each chapter should be:
+
+	\chapter{Chapter Title}
+
+	o To start a new section (labeled chap#.sec# -- as in 1.1,
+	1.2, etc):
+
+	\section{Section Heading}
+
+	You can also include subsections:
+
+	\subsection{Heading}
+
+

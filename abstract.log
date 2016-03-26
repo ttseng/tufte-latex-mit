@@ -1,0 +1,45 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 MAR 2016 16:13
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**abstract.tex
+(./abstract.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./abstract.tex:14: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 M
+      uch of what we design today is mediated by digital processes, from \te...
+
+? all
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 
+./abstract.tex:14: Emergency stop.
+ ...                                              
+                                                  
+l.14 M
+      uch of what we design today is mediated by digital processes, from \te...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 493089
+ 264 string characters out of 6134842
+ 53199 words of memory out of 5000000
+ 3590 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 5i,0n,4p,486b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+./abstract.tex:14:  ==> Fatal error occurred, no output PDF file produced!

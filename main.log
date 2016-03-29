@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 MAR 2016 01:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 MAR 2016 22:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -923,9 +923,9 @@ LaTeX Font Info:    Try loading font information for OT1+zplm on input line 2.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-Overfull \hbox (1.77649pt too wide) in paragraph at lines 2--2
+Overfull \hbox (0.9665pt too wide) in paragraph at lines 2--2
  [][] [][]\T1/pplj/m/n/10 Check it out, it's a Spin mar-gin fig-ure []$\T1/fvm/
-m/n/10 spin . media . mit . edu$[][] \T1/pplj/m/n/10 xv 
+m/n/10 spin . media . mit . edu$[][] \T1/pplj/m/n/10 13 
  []
 
 )
@@ -1006,16 +1006,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0C22F9F5119FBF1EF4AD4F8BD959FEAD;322.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
  13697 strings out of 493089
  196069 string characters out of 6134842
- 392709 words of memory out of 5000000
+ 392706 words of memory out of 5000000
  16810 multiletter control sequences out of 15000+600000
  69415 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1027,7 +1023,7 @@ mf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (19 pages, 9729318 bytes).
+Output written on main.pdf (19 pages, 9729546 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  122 compressed objects within 2 object streams

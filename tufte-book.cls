@@ -206,6 +206,37 @@ the \@degreeword\ of \@degree}
 \def\abstract{\subsection*{Abstract}\small\def\baselinestretch{1}\@normalsize}
 \def\endabstract{\par}
 
+%% [AYB]
+%% Add a page for reader signature
+% Usage: \reader{name}{title}{dept}
+% since there is almost more than one reader,
+% we build the appropriate boxes for the readerpage
+% as the user makes multiple calls to \reader
+\newbox\@readers
+
+\def\reader#1#2#3{\setbox\@readers\vbox
+  {\unvbox\@readers \vskip 50pt  %% plus 1fil minus 1fil
+  \def\baselinestretch{1}\large
+  \signature{Thesis Reader}{#1 \\ #2 \\ #3}}
+}
+
+\def\readerpage{\newpage
+{
+\begin{flushleft}
+\large
+{\def\baselinestretch{1.2}\Large\bf \choosecase{\@title} \par}
+\par
+
+\@author \\[\baselineskip]}
+\par
+The following people served as readers for this thesis:\\
+\par
+\unvbox\@readers
+\par
+\end{flushleft}
+\newpage
+}
+
 %%
 % End of file
 \endinput

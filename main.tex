@@ -61,10 +61,9 @@
 
 
 % custom page numbering
-\fancypagestyle{customstyle}{%
-\fancyhf{}%
-	\fancyhead[LE]{\thepage\quad\smallcaps{\newlinetospace{}}}% 
-	\fancyhead[RO]{\smallcaps{\newlinetospace{}}\quad\thepage}%
+\fancypagestyle{plain}{
+	\fancyhead[LE]{\thepage\quad\smallcaps}% 
+	\fancyhead[RO]{\smallcaps\quad\thepage}%
 }
 
 \usepackage[parfill]{parskip}
@@ -103,7 +102,7 @@
 % signature.tex for more information and uncomment the following line if
 % applicable.
 % \include{signature}
-\pagestyle{customstyle}
+\pagestyle{plain}
 \include{contents}
 \include{chap1}
 \appendix
